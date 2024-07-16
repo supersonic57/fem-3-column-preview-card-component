@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.component {
+  width: 90%;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: "Lexend Deca", sans-serif;
+}
+@media screen and (min-width: 800px) {
+  .component {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .component {
+    width: 925px;
+  }
+}
+.component .sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 45px;
+}
+.component .sedans .icon-and-text {
+  display: grid;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 800px) {
+  .component .sedans .icon-and-text {
+    margin-bottom: 75px;
+  }
+}
+.component .sedans button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  font-size: 0.95rem;
+  border: 3px solid hsl(0, 0%, 95%);
+  border-radius: 1000px;
+  padding: 12px 30px;
+}
+.component .sedans button:hover {
+  cursor: pointer;
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+.component .suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 45px;
+}
+.component .suvs .icon-and-text {
+  display: grid;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 800px) {
+  .component .suvs .icon-and-text {
+    margin-bottom: 75px;
+  }
+}
+.component .suvs button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  font-size: 0.95rem;
+  border: 3px solid hsl(0, 0%, 95%);
+  border-radius: 1000px;
+  padding: 12px 30px;
+}
+.component .suvs button:hover {
+  cursor: pointer;
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+.component .luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 45px;
+}
+.component .luxury .icon-and-text {
+  display: grid;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 800px) {
+  .component .luxury .icon-and-text {
+    margin-bottom: 75px;
+  }
+}
+.component .luxury button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  font-size: 0.95rem;
+  border: 3px solid hsl(0, 0%, 95%);
+  border-radius: 1000px;
+  padding: 12px 30px;
+}
+.component .luxury button:hover {
+  cursor: pointer;
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+.component h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+.component p.description {
+  font-size: 0.975rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+}
+
+/*# sourceMappingURL=style.css.map */

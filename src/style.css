@@ -125,10 +125,10 @@ body {
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
 }
-.component h2 {
+.component h1 {
   font-family: "Big Shoulders Display", sans-serif;
-  font-size: 2.5rem;
   font-weight: 700;
+  font-size: 2.5rem;
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
 }
